@@ -48,5 +48,5 @@ app.get('*', function(req, res) {
 
 
 app.listen(process.env.PORT, () => {
-  console.log('🖲🖲🖲 server connected to port ' + process.env.PORT);
+  console.log(' server connected to port ' + process.env.PORT);
 })
