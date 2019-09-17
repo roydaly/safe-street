@@ -1,0 +1,358 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.phone {
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 900px;
+  height: 960px;
+  margin: auto;
+}
+
+.phone-frame {
+  position: relative;
+  width: 375px;
+  height: 667px;
+  margin: 140px 264px auto auto;
+  top: 140px;
+  overflow: scroll;
+}
+
+.phone-frame::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+  background: transparent;
+  }
+/* Here is for landing page ========================================== */
+.landing-page {
+  border: white solid 0.5px;
+}
+
+.landing-title {
+  color: #000;
+  font-size: 40px;
+  line-height: 44px;
+  text-align: center;
+  display: block;
+  margin: auto;
+  margin-top:70px;
+}
+
+.landingBtn {
+  text-align: center;
+  padding:20px 0px;
+  margin: 55px auto 0 auto;
+  width: 80%;
+  background-color:#84D581;
+  border-radius: 30px;
+}
+
+.landingLink {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+/* Here is for login and signup =======================================*/
+.Signup,.Login{
+  text-align: center;
+  border: white solid 0.5px;
+}
+
+.loginInput, .signUpInput{
+  margin: 15px auto;
+  border-radius:30px;
+  padding: 15px;
+  width: 80%;
+  outline: none;
+  font-size: 16px;
+  -webkit-border-radius:30px;
+  -moz-border-radius:30px;
+  -ms-border-radius:30px;
+  -o-border-radius:30px;
+}
+
+.signUpInput {
+  margin: 8px auto;
+}
+
+.appName{
+  font-size: 42px;
+  font-weight: 800;
+  margin: 100px auto 50px auto;
+  text-align: center;
+}
+.submitBtn{
+  padding:10px 70px 10px 70px;
+  margin: 0 auto;
+  width: 80%;
+  font-size: 18px;
+  font-weight: 600;
+  background-color:#84D581;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+
+/* Here is for result page ===========================================*/
+.result-div {
+  border: white solid 0.1px;
+  overflow-y: scroll;
+}
+
+.result-div::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+  }
+
+.back-tab {
+  height: 50px;
+  margin-top: 10px;
+}
+
+.back-img {
+  height: 40px;
+}
+.result-loading {
+  margin: auto;
+  text-align: center;
+}
+.location-banner {
+  height: 128px;
+  width: 100%;
+  background-color: #84D581;
+  text-align: center;
+  font-size: 37px;
+  line-height: 120px;
+  color:white;
+}
+
+.result-mainscore {
+  position: relative;
+  height: 180px;
+  width: 100%;
+  text-align: center;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 174px;
+  margin-top: 15px;
+  margin-bottom: -15px;
+}
+
+.result-mainscore-subtitle {
+  position: absolute;
+  height: 29px;
+  width: 200px;
+  color: #4A4A4A;
+  font-size: 24px;
+  font-weight: 200;
+  line-height: 29px;
+  text-align: center;
+  top: 0;
+  left: 90px;
+}
+.marker {
+  font-size: 35px
+}
+
+.map-popup {
+  font-size: 16px;
+}
+.result-sub {
+  height: 80px;
+  width: 335px;
+  margin: auto;
+  border-radius: 20px;
+  background-color: #84D581;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 1em;
+}
+
+.nondec-Link {
+  text-decoration: none;
+}
+
+.result-sub-info {
+  color: #FFF;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 35px;
+  text-align: center;
+}
+
+.result-sub-score {
+  color: #4A4A4A;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 35px;
+  text-align: center;
+}
+
+/* Here is for details */
+
+.details-individual-container {
+  margin-top: 23px;
+  width: 375px;
+  border: #84D581 solid 5px;
+  border-bottom: white solid 0.1px;
+  border-radius: 30px 30px 0 0;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.details-deco-div {
+  background: black;
+  height: 13.31px;
+  width: 126px;
+  border-radius: 30px;
+  margin: auto;
+  margin-top: -6.65px;
+}
+
+.details-title {
+  height: 29px;
+  width: 257px;
+  color: #4A4A4A;
+  font-size: 24px;
+  font-weight: 200;
+  line-height: 29px;
+  margin: 15px auto;
+}
+
+.details-individual-wrapper {
+  width: 305px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: space-around;
+}
+
+.details-individual {
+  height: 192px;
+  width: 142px;
+  border-radius: 30px;
+  background-color: #84D581;
+  margin-bottom: 34px;
+}
+
+.details-individual-title {
+  color: #000;
+  font-size: 25px;
+  font-weight: 300;
+  height: 85px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.details-individual-num {
+  font-size: 52px;
+  line-height: 63px;
+  text-align: center;
+}
+
+.details-individual-unit {
+  color: #000;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 20px;
+  text-align: center;
+}
+
+
+/* ROy's css ======================================= */
+.search-page {
+  border: white solid 0.5px;
+}
+
+.check-score {
+  width: 303px;
+  color: #000;
+  font-size: 16px;
+  line-height: 32px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+
+.safe-street {
+  height: 44px;
+  width: 186px;
+  color: #000;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:20px;
+}
+
+.submit-btn {
+  height: 53px;
+  width: 333px;
+  border-radius: 20px;
+  background-color: #84D581;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: #000;
+  font-size: 20px;
+  line-height: 24px;
+  margin-top: 30px;
+}
+
+.input {
+  box-sizing: border-box;
+  height: 53px;
+  width: 333px;
+  border-radius: 20px;
+  background-color: #FFF;
+  border: 1px solid #808080;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: #7B7B7B;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.house-img {
+  margin-left: 15px;
+  margin-top: 100px;
+  width: 350px;
+}
+
+
+.name {
+  color: #7B7B7B;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: left;
+}
+
+.logout {
+  color: #7B7B7B;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: right;
+  margin-top: 40px;
+  width: 96%;
+}
